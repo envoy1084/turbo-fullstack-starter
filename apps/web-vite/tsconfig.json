@@ -7,7 +7,5 @@
       "@repo/ui/*": ["../../packages/ui/src/*"]
     }
   },
-  "exclude": ["node_modules", "dist"],
-  "extends": "@repo/config/tsconfig/app/vite",
-  "include": ["**/*.ts", "**/*.tsx"]
+  "extends": "@repo/config/tsconfig/app/vite"
 }

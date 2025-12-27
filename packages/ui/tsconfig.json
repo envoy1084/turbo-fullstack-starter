@@ -2,12 +2,9 @@
   "$schema": "https://json.schemastore.org/tsconfig",
   "compilerOptions": {
     "baseUrl": ".",
-    "declaration": true,
-    "declarationMap": true,
-    "jsx": "react-jsx",
     "paths": { "@repo/ui/*": ["./src/*"] }
   },
   "exclude": ["node_modules", "dist"],
-  "extends": "@repo/config/tsconfig/library/browser",
+  "extends": "@repo/config/tsconfig/library/react",
   "include": ["**/*.ts", "**/*.tsx"]
 }
